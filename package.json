@@ -2,11 +2,25 @@
   "name": "angular-gulp-browserify",
   "version": "1.0.0",
   "description": "Example AngularJS app built with gulp and browserify",
-  "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "author": "@chazzlabs",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/chazzlabs/angular-gulp-browserify"
+  },
+  "bugs": {
+      "url": "https://github.com/chazzlabs/angular-gulp-browserify/issues"
+  },
+  "keywords": [
+      "angular",
+      "js",
+      "gulp",
+      "browserify",
+      "karma"
+  ],
+  "private": true,
   "license": "MIT",
   "devDependencies": {
     "angular-mocks": "^1.5.5",
