@@ -1,0 +1,13 @@
+{
+    "extends": "airbnb/base",
+    "globals": {
+        "angular": true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "comma-dangle": ["error", "never"],
+        "space-before-function-paren": ["error", "never"],
+        "padded-blocks": "off",
+        "func-names": "off"
+    }
+}
