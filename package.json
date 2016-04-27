@@ -7,18 +7,18 @@
   },
   "author": "@chazzlabs",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/chazzlabs/angular-gulp-browserify"
+    "type": "git",
+    "url": "https://github.com/chazzlabs/angular-gulp-browserify"
   },
   "bugs": {
-      "url": "https://github.com/chazzlabs/angular-gulp-browserify/issues"
+    "url": "https://github.com/chazzlabs/angular-gulp-browserify/issues"
   },
   "keywords": [
-      "angular",
-      "js",
-      "gulp",
-      "browserify",
-      "karma"
+    "angular",
+    "js",
+    "gulp",
+    "browserify",
+    "karma"
   ],
   "private": true,
   "license": "MIT",
@@ -32,6 +32,7 @@
     "gulp": "^3.9.1",
     "gulp-connect": "^3.1.0",
     "gulp-eslint": "^2.0.0",
+    "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-browserify": "^5.0.4",
     "karma-jasmine": "^0.3.8",
