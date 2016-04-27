@@ -2,6 +2,8 @@
 
 module.exports = function() {
 
-    this.message = 'Goodbye!';
+    this.$onInit = () => {
+        this.message = 'Goodbye!';
+    };
 
 };

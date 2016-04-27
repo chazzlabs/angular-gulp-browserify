@@ -3,10 +3,10 @@
 module.exports = function() {
 
     this.$onInit = () => {
-        this.showHelloMessage = false;
+        this.showHelloMessage = true;
     };
 
-    this.sayHello = () => {
+    this.toggleMessage = () => {
         this.showHelloMessage = !this.showHelloMessage;
     };
 

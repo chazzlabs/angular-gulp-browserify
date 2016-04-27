@@ -1,4 +1,4 @@
-describe('mainCtrl', function() {
+describe('mainCtrl', () => {
 
     let controller;
 
@@ -18,23 +18,23 @@ describe('mainCtrl', function() {
             controller.$onInit();
 
             expect(controller.showHelloMessage).toBeDefined();
-            expect(controller.showHelloMessage).toBeFalsy();
+            expect(controller.showHelloMessage).toBeTruthy();
         });
 
     });
 
-    describe('#sayHello', () => {
+    describe('#toggleMessage', () => {
 
         beforeEach(() => {
             controller.$onInit();
         });
 
         it('should toggle showHelloMessage', () => {
-            expect(controller.showHelloMessage).toBeFalsy();
-
-            controller.sayHello();
-
             expect(controller.showHelloMessage).toBeTruthy();
+
+            controller.toggleMessage();
+
+            expect(controller.showHelloMessage).toBeFalsy();
         });
 
     });
